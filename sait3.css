@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Oswald&family=Roboto&family=Roboto+Slab&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    background-image: linear-gradient(to left bottom, #170780, #0045a7, #0072c0, #299dce, #81c6db, #7cc9e0, #76cce5, #6fcfea, #00abec, #0083ed, #0055df, #1e07bb);
+}
+
+.navbar-nav.ml-auto{
+    margin-left: 0! important;
+    padding-right: 0! important;
+    padding-right: 20rem;
+}
+.logo_img{
+   width: 40%;
+   border-radius: 50%;
+   position: relative;
+   z-index: 4;
+}
+.navbar-brand p.logo{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font: weight bold;
+    color:orange;
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+    font-weight: bold;
+   
+   
+}
+span{
+    font-size: 1.3rem;
+    color: rgb(234, 234, 240);
+    
+}
+.navbar-brand{
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+    color: white !important;
+    font-size: 1rem;
+    margin: auto 10px;
+    text-transform: uppercase;
+    
+}
+nav ul li a :hover {
+    color:blue !important;
+}
+#navbarSupportedContent{
+    color:white;
+}
+.nes{
+    width: 100%;
+    border-radius: 5%;
+    box-shadow: 12px 11px 23px 3px rgba(129,154,184,0.75);
+-webkit-box-shadow: 12px 11px 23px 3px rgba(129,154,184,0.75);
+-moz-box-shadow: 12px 11px 23px 3px rgba(129,154,184,0.75);
+    position: relative;
+}
+h1,h3{
+    position: absolute;
+    top: 50px;
+    color: white;
+font-weight: bold;
+}
+h2{
+    color: rgb(246, 246, 252);
+   text-align: justify;
+}
+
+.par1{
+   color: darkblue;
+   text-align: justify;
+   padding-top: 10px;
+}
+.par2{
+    padding: 5px;
+    color: cornsilk;
+}
+.par3{
+
+    border-radius: 10px;
+    color: cornsilk;
+}
+.vel{
+    height: 100%;
+}
+.m{
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+
+}
+.par{
+    background-image: linear-gradient(to left bottom, #170780, #0045a7, #0072c0, #299dce, #81c6db, #7cc9e0, #76cce5, #6fcfea, #00abec, #0083ed, #0055df, #1e07bb);    
+font-weight: bold;
+}
